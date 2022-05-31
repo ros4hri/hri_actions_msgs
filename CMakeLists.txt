@@ -11,6 +11,7 @@ add_action_files(
   DIRECTORY action
   FILES
     LookAt.action
+    PointTrajectory.action
 )
 generate_messages(
     DEPENDENCIES
