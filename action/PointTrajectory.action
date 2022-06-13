@@ -1,4 +1,5 @@
-# We explicitly require any point to be already transformed to the common head frame (e.g. "head_2_link" on ARI)
+# the header's frame applies to ALL points in the trajectory
+std_msgs/Header header
 geometry_msgs/Point[] targets
 duration[] times_from_start
 ---
