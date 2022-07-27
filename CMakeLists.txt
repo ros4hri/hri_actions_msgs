@@ -7,6 +7,12 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
 )
 
+add_message_files(
+    DIRECTORY msg
+    FILES
+    LookAtWithStyle.msg
+)
+
 add_action_files(
   DIRECTORY action
   FILES
