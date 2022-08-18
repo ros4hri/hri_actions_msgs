@@ -2,8 +2,8 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.2.0 (2022-08-18)
+------------------
 * add LookAtWithStyle.msg
 * Contributors: Séverin Lemaignan
 
