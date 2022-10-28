@@ -11,6 +11,7 @@ add_message_files(
     DIRECTORY msg
     FILES
     LookAtWithStyle.msg
+    Intent.msg
 )
 
 add_action_files(
