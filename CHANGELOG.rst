@@ -2,6 +2,16 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add intents via Intent.msg
+  'Intents' represents actions that a user (or sometimes, the robot
+  itself) wants to be performed by the robot.
+  They are used to decouple the user intent perception from the robot
+  controller.
+  The Intent.msg specifies an abstract model for these intents.
+* Contributors: Séverin Lemaignan
+
 0.2.0 (2022-08-18)
 ------------------
 * add LookAtWithStyle.msg
