@@ -2,8 +2,8 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.0 (2022-12-02)
+------------------
 * add intents via Intent.msg
   'Intents' represents actions that a user (or sometimes, the robot
   itself) wants to be performed by the robot.
