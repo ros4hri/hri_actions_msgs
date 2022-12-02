@@ -19,6 +19,7 @@ add_action_files(
   FILES
     LookAt.action
     PointTrajectory.action
+    ApplicationControl.action
 )
 generate_messages(
     DEPENDENCIES
