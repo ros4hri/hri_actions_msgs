@@ -2,8 +2,8 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.1 (2022-12-05)
+------------------
 * Intent.msg: rename the field 'action' to 'intent' to avoid confusion
 * Contributors: Séverin Lemaignan
 
