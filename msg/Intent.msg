@@ -7,46 +7,46 @@
 # button click on a touchscreen, the result of a chatbot-based verbal
 # interaction, a command started by a remote user interface.
 #
-# Intents comprise of two mandatory fields: the `action`, which should be one
-# of the available predefined actions, and the `data` which must be a JSON
-# object containing the data required to fully instantiate the action.  While
+# Intents comprise of two mandatory fields: the `intent`, which should be one
+# of the available predefined intents, and the `data` which must be a JSON
+# object containing the data required to fully instantiate the intent.  While
 # the exact content of the JSON object is up to the application, the following
-# standard keys can be used to specify the action's semantic roles (also called
+# standard keys can be used to specify the intent's semantic roles (also called
 # thematic roles or theta roles):
 #
-# - `agent`: the agent expected to perform the action (if omitted, the robot
+# - `agent`: the agent expected to perform the intent (if omitted, the robot
 # itself is assumed)
 # - `object` (also named *theme* or *patient* in the linguistics literature): entity
-# undergoing the effect of the action
-# - `goal`: entity towards which the action is directed or moves
+# undergoing the effect of the intent
+# - `goal`: entity towards which the intent is directed or moves
 # - `recipient`: entity that receives the object (denoted as the `theme`)
 #
 # Examples:
 # 
 # - "I want you to go to the kitchen":
-#   - action: `move_to`
+#   - intent: `move_to`
 #   - data: {"goal":"kitchen_1"}
 #
 # - "Can you take the groceries to Luke in the kitchen?"
-#   - action: `bring`
+#   - intent: `bring`
 #   - data: {"object": "groceries",
 #            "goal":"kitchen_1",
 #            "recipient": "person_luke"}
 
 ##########################################################################
-#  Intent action
+#  Intent name
 #
-# A string describing the action intended by this intent.
+# A string describing the intent.
 #
-# Where suitable, the action SHOULD be one of the constant defined below.
-# However, we recognise that the list of actions is possibly large. Therefore,
-# custom strings are also permissible. If you believe your action should be
-# standardised and added to the list of pre-defined action, fill the
+# Where suitable, the intent SHOULD be one of the constant defined below.
+# However, we recognise that the list of intents is possibly large. Therefore,
+# custom strings are also permissible. If you believe your intent name should
+# be standardised and added to the list of pre-defined intents, fill the
 # corresponding entry in the "thematic roles" table below and submit a pull
 # request on this repository.
-string action
+string intent
 
-# 'action' constants
+# 'intent' constants
 # see table below for a short description of each.
 
 string ENGAGE_WITH = "__intent_engage_with__"
@@ -65,18 +65,18 @@ string STOP_ACTIVITY = "__intent_stop_activity__"
 ##########################################################################
 #  Intent data
 #
-# a JSON object containing the data required to fully instantiate the action.
+# a JSON object containing the data required to fully instantiate the intent.
 # The keys of the object should be one of the thematic role defined above, or
 # the general `other_data`.
 #
-# Each action defines a specific set of required and optional thematic roles,
+# Each intent defines a specific set of required and optional thematic roles,
 # listed in the following table (note that the `agent` role can be optionally
-# added to all actions, and is omitted from the table for clarity):
+# added to all intents, and is omitted from the table for clarity):
 #
 # .. [please keep the RST table syntax below, as it is used to automatically parse the list of intents by some nodes]#
 # .. BEGIN_INTENTS_TABLE
 # +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
-# | **Action**       | **Description**                                                             | **Required thematic roles**                                 | **Optional thematic roles**                                               |
+# | **Intent**       | **Description**                                                             | **Required thematic roles**                                 | **Optional thematic roles**                                               |
 # +==================+=============================================================================+=============================================================+===========================================================================+
 # | `ENGAGE_WITH`    | an agent wants to engage with another one                                   | - `recipient`                                               |                                                                           |
 # +------------------+-----------------------------------------------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------+
