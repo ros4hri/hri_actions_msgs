@@ -2,8 +2,8 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.3.2 (2022-12-05)
+------------------
 * Simple action to control (start/stop) applications
 * Contributors: Séverin Lemaignan
 
