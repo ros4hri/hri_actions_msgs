@@ -2,6 +2,14 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* string constants should not use quotes
+  While here:
+  - remove a spurious comment on one of the comments lines
+  - prefix moadlity string constants with __modality\_ for consistency
+* Contributors: Séverin Lemaignan
+
 0.3.2 (2022-12-05)
 ------------------
 * Simple action to control (start/stop) applications
