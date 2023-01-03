@@ -49,18 +49,18 @@ string intent
 # 'intent' constants
 # see table below for a short description of each.
 
-string ENGAGE_WITH = "__intent_engage_with__"
-string MOVE_TO = "__intent_move_to__"
-string GUIDE = "__intent_guide__"
-string GRAB_OBJECT = "__intent_grab_object__"
-string BRING_OBJECT = "__intent_bring_object__"
-string PLACE_OBJECT = "__intent_place_object__"
-string GREET = "__intent_greet__"
-string SAY = "__intent_say__"
-string PRESENT_CONTENT = "__intent_present_content__"
-string PERFORM_MOTION = "__intent_perform_motion__"
-string START_ACTIVITY = "__intent_start_activity__"
-string STOP_ACTIVITY = "__intent_stop_activity__"
+string ENGAGE_WITH = __intent_engage_with__
+string MOVE_TO = __intent_move_to__
+string GUIDE = __intent_guide__
+string GRAB_OBJECT = __intent_grab_object__
+string BRING_OBJECT = __intent_bring_object__
+string PLACE_OBJECT = __intent_place_object__
+string GREET = __intent_greet__
+string SAY = __intent_say__
+string PRESENT_CONTENT = __intent_present_content__
+string PERFORM_MOTION = __intent_perform_motion__
+string START_ACTIVITY = __intent_start_activity__
+string STOP_ACTIVITY = __intent_stop_activity__
 
 ##########################################################################
 #  Intent data
@@ -122,14 +122,14 @@ string source
 # 'source' constants:
 
 # for intents originating from the robot itself
-string ROBOT_ITSELF = "__myself__"
+string ROBOT_ITSELF = __myself__
 # for intents originating from a external robot control system (for instance, a remote control tablet)
-string REMOTE_SUPERVISOR = "__remote_supervisor__"
+string REMOTE_SUPERVISOR = __remote_supervisor__
 # for intents coming from an agent interacting with the robot, but not uniquely
 # identified
-string UNKNOWN_AGENT = "__unknown_agent__"
+string UNKNOWN_AGENT = __unknown_agent__
 # for unknown sources
-string UNKNOWN = "__unknown__"
+string UNKNOWN = __unknown__
 
 
 ##########################################################################
@@ -144,11 +144,12 @@ string modality
 
 # 'modality' constants:
 
-string MODALITY_SPEECH = "speech"
-string MODALITY_MOTION = "motion" # both gestures (eg waving) and displacement (eg approaching)
-string MODALITY_TOUCHSCREEN = "touchscreen"
-string MODALITY_OTHER = "other"
-string MODALITY_INTERNAL = "internal"
+string MODALITY_SPEECH = __modality_speech__
+# both gestures (eg waving) and displacement (eg approaching)
+string MODALITY_MOTION = __modality_motion__
+string MODALITY_TOUCHSCREEN = __modality_touchscreen__
+string MODALITY_OTHER = __modality_other__
+string MODALITY_INTERNAL = __modality_internal__
 
 
 ##########################################################################
