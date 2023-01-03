@@ -2,8 +2,8 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.4.0 (2023-01-03)
+------------------
 * string constants should not use quotes
   While here:
   - remove a spurious comment on one of the comments lines
