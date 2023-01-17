@@ -2,6 +2,11 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add actions to start/stop ASR
+* Contributors: Séverin Lemaignan
+
 0.4.0 (2023-01-03)
 ------------------
 * string constants should not use quotes
