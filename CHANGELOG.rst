@@ -2,8 +2,8 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.4.1 (2023-01-17)
+------------------
 * add actions to start/stop ASR
 * Contributors: Séverin Lemaignan
 
