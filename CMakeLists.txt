@@ -17,8 +17,6 @@ add_message_files(
 add_action_files(
   DIRECTORY action
   FILES
-    StartASR.action
-    StopASR.action
     LookAt.action
     PointTrajectory.action
     ApplicationControl.action
