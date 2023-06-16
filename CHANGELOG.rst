@@ -2,6 +2,12 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Revert "add actions to start/stop ASR"
+  This reverts commit bbd9646771a5ba4ac6e680c1c2e036f4b4730fa6.
+* Contributors: Séverin Lemaignan
+
 0.4.1 (2023-01-17)
 ------------------
 * add actions to start/stop ASR
