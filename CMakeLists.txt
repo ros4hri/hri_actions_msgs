@@ -20,6 +20,7 @@ add_action_files(
     LookAt.action
     PointTrajectory.action
     ApplicationControl.action
+    FaceOverlay.action
 )
 generate_messages(
     DEPENDENCIES
