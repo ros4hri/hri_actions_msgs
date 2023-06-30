@@ -2,6 +2,11 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add action to control face/eyes overlays
+* Contributors: Séverin Lemaignan
+
 0.4.2 (2023-06-16)
 ------------------
 * Revert "add actions to start/stop ASR"
