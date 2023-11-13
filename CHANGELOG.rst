@@ -2,6 +2,11 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* porting to humble
+* Contributors: Luka Juricic
+
 0.4.3 (2023-06-30)
 ------------------
 * add action to control face/eyes overlays
