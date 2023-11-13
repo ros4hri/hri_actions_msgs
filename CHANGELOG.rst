@@ -2,8 +2,8 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.0 (2023-11-13)
+------------------
 * porting to humble
 * Contributors: Luka Juricic
 
