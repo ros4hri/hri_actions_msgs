@@ -2,8 +2,8 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.1 (2023-11-13)
+------------------
 * add missing dep on action_msgs
 * Contributors: Séverin Lemaignan
 
