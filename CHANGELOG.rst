@@ -2,6 +2,11 @@
 Changelog for package hri_actions_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add missing dep on action_msgs
+* Contributors: Séverin Lemaignan
+
 2.0.0 (2023-11-13)
 ------------------
 * porting to humble
