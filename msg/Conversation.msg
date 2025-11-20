@@ -1,0 +1,2 @@
+ConversationInteraction[] history
+string[] participants

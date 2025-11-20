@@ -32,7 +32,10 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ClosedCaption.msg"
+  "msg/ConversationInteraction.msg"
+  "msg/Conversation.msg"
   "msg/Intent.msg"
+  "msg/IntentsList.msg"
   "msg/LookAtWithStyle.msg"
   "msg/ActivityList.msg"
   "action/ApplicationControl.action"
